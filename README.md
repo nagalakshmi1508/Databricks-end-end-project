@@ -41,13 +41,14 @@ Removes duplicates, handles nulls, normalizes data
 
 Joins dimensions like customers, products, and regions
 
-Implements Slowly Changing Dimension Type 1 (SCD1) logic
 
 ## 🥇 Gold Layer
 
 Aggregates and enriches datasets for analytics
 
 Customer KPIs, product sales performance, regional trends
+
+Implements Slowly Changing Dimension Type 1 (SCD1) logic
 
 Implements SCD2 using Delta Live Tables (DLT) to track historical changes
 
